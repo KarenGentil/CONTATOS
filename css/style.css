@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h2{
+    color: #4585e6;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+header{
+    color: white;
+    background-color: #4585e4;
+    padding: 20px 0;
+}
+
+.contact-form{
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+label, input, textarea, button{
+
+
+    margin: 10px 0;
+    width: 300px ; /*largura*/
+
+
+}
+
+button{
+    background-color: #4585e6;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer; /*passando o mouse vira uma mão */
+}
+
+button:hover /*ao passar o mauser*/{
+     background-color: rgb(43, 88, 161)
+
+}
+
+
+footer{
+     
+
+background-color: #4585e6;
+color: white;
+padding: 10px 0;
+position: absolute;
+bottom: 0; /* desce 100%*/
+width: 100%;
+
+}
